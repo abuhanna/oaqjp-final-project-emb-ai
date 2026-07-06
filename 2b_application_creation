@@ -1,0 +1,6 @@
+Python 3.11.4 (tags/v3.11.4:d2340d6, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector('I love this new technology.')
+'{"emotionPredictions":[{"emotion":{"anger":0.0062757577,"disgust":0.002058079,"fear":0.00898516,"joy":0.96328604,"sadness":0.019488344},"target":"","text":"I love this new technology."}],"producerWestag":false}'
+>>> 
